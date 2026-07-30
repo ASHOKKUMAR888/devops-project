@@ -122,9 +122,8 @@ Performs cleanup and displays the final pipeline status.
 
 ## Author
 
-**Your Name**
+ASHOKKUMAR B R
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/ASHOKKUMAR888/devops-project
 
-LinkedIn: https://linkedin.com/in/your-profile
-
+LinkedIn: https://www.linkedin.com/in/ashokkumar-b-r-346aa11aa/
