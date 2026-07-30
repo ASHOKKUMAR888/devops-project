@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: devops-app:v1
+        image: devops-app:latest
 
         imagePullPolicy: Never
 
