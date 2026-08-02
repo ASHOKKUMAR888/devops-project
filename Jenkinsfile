@@ -88,7 +88,26 @@ pipeline {
             }
         }
 
+stage('SonarQube Analysis') {
 
+    steps {
+
+        script {
+
+            def scannerHome = tool 'SonarScanner'
+
+            withSonarQubeEnv('SonarQube') {
+
+                sh """
+                ${scannerHome}/bin/sonar-scanner \
+                -Dsonar.projectKey=devops-project \
+                -Dsonar.projectName=devops-project \
+                -Dsonar.sources=app
+                """
+            }
+        }
+    }
+}
 
 
         stage('Build Docker Image') {
